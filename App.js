@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import SignupLoginScreen from './screens/SignupLoginScreen';
+import SignUpLoginScreen from './screens/SignUpLoginScreen';
 import { createAppContainer, createSwitchNavigator,} from 'react-navigation';
 import { AppDrawerNavigator } from './components/AppDrawerNavigator';
 
@@ -11,7 +11,7 @@ export default function App() {
 }
 
 const switchNavigator = createSwitchNavigator({
-  SignupLoginScreen:{screen: SignupLoginScreen},
+  SignUpLoginScreen:{screen: SignUpLoginScreen},
   Drawer:{screen: AppDrawerNavigator}
 })
 
